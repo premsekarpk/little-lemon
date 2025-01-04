@@ -1,0 +1,24 @@
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-1);
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: var(--primary-2);
+}

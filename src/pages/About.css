@@ -1,0 +1,13 @@
+.about-page {
+  min-height: calc(100vh - 200px); /* Adjust based on header/footer height */
+  background-color: var(--highlight-1);
+}
+
+/* Add any additional page-specific styles here */
+.about-page section:first-child {
+  padding-top: 2rem;
+}
+
+.about-page section:last-child {
+  padding-bottom: 4rem;
+}

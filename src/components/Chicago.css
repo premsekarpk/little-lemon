@@ -1,0 +1,78 @@
+.chicago-section {
+  padding: 4rem 2rem;
+  background-color: var(--highlight-1);
+}
+
+.chicago-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.chicago-text h1 {
+  color: var(--primary-1);
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.chicago-text h2 {
+  color: var(--primary-2);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.chicago-text p {
+  color: var(--highlight-2);
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.chicago-images {
+  position: relative;
+  height: 450px;
+}
+
+.chef-image,
+.restaurant-image {
+  width: 60%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chef-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.restaurant-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .chicago-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .chicago-images {
+    height: 400px;
+    margin-top: 2rem;
+  }
+
+  .chef-image,
+  .restaurant-image {
+    width: 80%;
+  }
+}

@@ -1,0 +1,8 @@
+header img {
+  height: 50px;
+  width: auto;
+}
+
+header h1 {
+  display: none; /* Hide the text since we're showing logo */
+}
