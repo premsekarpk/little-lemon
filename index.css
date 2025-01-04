@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Markazi Text', serif;
+  font-weight: 500;  /* medium weight */
+  line-height: 1;    /* same point size as headline */
+}
+
+p, li, a {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;  /* regular weight */
+  font-size: 0.65em; /* 65% of headline size */
+  line-height: 1.5;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

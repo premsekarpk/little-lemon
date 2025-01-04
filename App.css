@@ -1,0 +1,24 @@
+:root {
+  /* Colors - you can replace these hex values later */
+  --primary-1: #495E57;
+  --primary-2: #F4CE14;
+  --secondary-1: #EE9972;
+  --secondary-2: #FBDABB;
+  --highlight-1: #EDEFEE;
+  --highlight-2: #333333;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Layout structure */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--highlight-1);
+}
